@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>API</title>
+</head>
+<body>
+    <script src="post.js"></script>
+
+    <form onsubmit="cadastaEvento()">
+    <label for="idevento">Id Evento:</label>
+    <input name="idevento" id="idevento" type="text">
+    <br><br>
+    <label for="cliente">Cliente:</label>
+    <input name="cliente" id="cliente" type="text">
+    <br><br>
+    <label for="tema">Tema:</label>
+    <input name="tema" id="tema" type="text">
+    <br><br>
+    <label for="data">Data:</label>
+    <input name="data" id="data" type="text">
+    <br><br>
+    <label for="valor_total">Valor Total:</label>
+    <input name="valor_total" id="valor_total" type="text">
+    <br>  <br> 
+    <label for="entrada">Valor Entrada:</label>
+    <input name="entrada" id="entrada" type="text">
+    <br> <br>
+    
+    <label for="forma_pagamento">Forma Pagamento:</label>
+
+    <select name="forma_pagamento" id="forma_pagamento">
+        <option value="1">Dinheiro</option>
+        <option value="2" selected>Cartão de Credito Avista</option>
+        <option value="3">Debito</option>
+        <option value="4">Credito Parcelado</option>
+        <option value="5">Transferência (Pix, Ted, Doc, Entre Contas)</option>
+        
+      </select>
+       
+    <br> <br>
+    <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
